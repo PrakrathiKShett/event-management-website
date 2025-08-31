@@ -1,0 +1,9 @@
+Website Name: EventX
+
+Slogan: Your Event, Our Responsibility
+
+Sections:
+1. Home - Short intro
+2. Services - Wedding, Birthday, Corporate Events
+3. About - Team story
+4. Contact - Form

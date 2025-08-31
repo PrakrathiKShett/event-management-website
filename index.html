@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRAKRATHI EventX - Event Management</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+    }
+
+    header {
+      background: #1a237e; /* Dark Blue */
+      padding: 1rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    header nav a {
+      margin: 0 .7rem;
+      color: #f9a825; /* Gold */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      color: white;
+      border-bottom: 2px solid #f9a825;
+      padding-bottom: 2px;
+    }
+
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #1a237e;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 2rem;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #ddd;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      border-color: #f9a825;
+    }
+
+    /* Extra sections */
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .feature {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      width: 250px;
+      margin: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .testimonials {
+      background: #f4f6ff;
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+    }
+
+    .testimonial {
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+
+    form {
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+    }
+
+    form input,
+    form textarea,
+    form button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    form button {
+      background-color: #1a237e;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    form button:hover {
+      background-color: #3949ab;
+    }
+
+    footer {
+      background: #1a237e;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PRAKRATHI EventX</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="booking.html">Book Event</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>WELCOME TO PRAKRATHI EVENTX</h2>
+    <h3>Your Event, Our Responsibility</h3>
+    <p>We manage weddings, parties, corporate events & more!</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>
+        <h3>Wedding Planning</h3>
+        <div class="gallery">
+          <img src="images/wedding.jpg" alt="Wedding Event">
+          <img src="images/download (2).jpg" alt="Wedding Event">
+          <img src="images/download.jpg" alt="Wedding Event">
+        </div>
+      </li>
+      <li>
+        <h3>Birthday Events</h3>
+        <div class="gallery">
+          <img src="images/birthday.jpg" alt="Birthday Event">
+          <img src="images/images.jpg" alt="Birthday Event">
+          <img src="images/download (1).jpg" alt="Birthday Event">
+        </div>
+      </li>
+      <li>
+        <h3>Corporate Events</h3>
+        <div class="gallery">
+          <img src="images/corporate.jpg" alt="Corporate Event">
+          <img src="images/Image-1-14-768x454.webp" alt="Corporate Event">
+          <img src="images/download (3).jpg" alt="Corporate Event">
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Extra: Why Choose Us -->
+  <section id="why">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🎉 Creative Ideas</h3>
+        <p>We design events that are unique and unforgettable.</p>
+      </div>
+      <div class="feature">
+        <h3>🤝 Professional Team</h3>
+        <p>Our experienced team ensures everything runs smoothly.</p>
+      </div>
+      <div class="feature">
+        <h3>💰 Affordable Packages</h3>
+        <p>Quality service at the best price guaranteed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extra: Testimonials -->
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">⭐ "They made our wedding magical. Highly recommend!"</div>
+    <div class="testimonial">⭐ "Corporate event was smooth and well-managed."</div>
+    <div class="testimonial">⭐ "Best birthday party planners in town!"</div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a passionate team bringing dreams to life through unforgettable events.</p>
+    <p><b>Contact:</b> 8687911530</p>
+    <p><b>Office:</b> Airport Road near Sairam Building Kavoor, Mangalore-574142</p>
+    <p><b>Website:</b> www.prakrathieventx.com</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Feedback" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 PRAKRATHI EventX | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

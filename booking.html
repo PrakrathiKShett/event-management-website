@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book an Event</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="booking.html">Book Event</a>
+</nav>
+
+<h2>Book Your Event</h2>
+
+<form action="#" method="post">
+  <label>Full Name:</label><br>
+  <input type="text" name="fullname" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>Event Type:</label><br>
+  <select name="eventtype">
+    <option value="wedding">Wedding</option>
+    <option value="birthday">Birthday</option>
+    <option value="corporate">Corporate</option>
+  </select><br><br>
+
+  <label>Event Date:</label><br>
+  <input type="date" name="eventdate" required><br><br>
+
+  <label>Message:</label><br>
+  <textarea name="message" placeholder="Tell us about your event"></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
